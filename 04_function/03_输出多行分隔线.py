@@ -19,7 +19,7 @@ def print_lines(char, times, row):
         print_line(char, times)
         col += 1
 
-a = str(input("输入分隔符号："))
+a = input("输入分隔符号：")
 b = int(input("输入每行分隔符个数："))
 c = int(input("输入输出分隔符行数："))
 # 调用多行分隔线函数
