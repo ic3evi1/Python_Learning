@@ -25,3 +25,7 @@ name_list.reverse()
 num_list.reverse()
 print(name_list)
 print(num_list)
+
+#列表的遍历
+for my_name in name_list:
+    print("我的名字是 %s" % my_name)
